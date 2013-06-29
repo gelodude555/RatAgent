@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4EFB08F177F34EF000EB829 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EFB08E177F34EF000EB829 /* UIKit.framework */; };
+		A4EFB091177F34EF000EB829 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EFB090177F34EF000EB829 /* Foundation.framework */; };
+		A4EFB093177F34EF000EB829 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EFB092177F34EF000EB829 /* CoreGraphics.framework */; };
+		A4EFB099177F34EF000EB829 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4EFB097177F34EF000EB829 /* InfoPlist.strings */; };
+		A4EFB09B177F34EF000EB829 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EFB09A177F34EF000EB829 /* main.m */; };
+		A4EFB09F177F34EF000EB829 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EFB09E177F34EF000EB829 /* AppDelegate.m */; };
+		A4EFB0A1177F34EF000EB829 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A4EFB0A0177F34EF000EB829 /* Default.png */; };
+		A4EFB0A3177F34EF000EB829 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4EFB0A2177F34EF000EB829 /* Default@2x.png */; };
+		A4EFB0A5177F34EF000EB829 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4EFB0A4177F34EF000EB829 /* Default-568h@2x.png */; };
+		A4EFB0A8177F34EF000EB829 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4EFB0A6177F34EF000EB829 /* MainStoryboard.storyboard */; };
+		A4EFB0AB177F34EF000EB829 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EFB0AA177F34EF000EB829 /* ViewController.m */; };
+		A4EFB0B3177F34EF000EB829 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EFB0B2177F34EF000EB829 /* SenTestingKit.framework */; };
+		A4EFB0B4177F34EF000EB829 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EFB08E177F34EF000EB829 /* UIKit.framework */; };
+		A4EFB0B5177F34EF000EB829 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EFB090177F34EF000EB829 /* Foundation.framework */; };
+		A4EFB0BD177F34EF000EB829 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4EFB0BB177F34EF000EB829 /* InfoPlist.strings */; };
+		A4EFB0C0177F34EF000EB829 /* RatAgentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EFB0BF177F34EF000EB829 /* RatAgentTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A4EFB0B6177F34EF000EB829 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A4EFB083177F34EF000EB829 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A4EFB08A177F34EF000EB829;
+			remoteInfo = RatAgent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A4EFB08B177F34EF000EB829 /* RatAgent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RatAgent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4EFB08E177F34EF000EB829 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A4EFB090177F34EF000EB829 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A4EFB092177F34EF000EB829 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A4EFB096177F34EF000EB829 /* RatAgent-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RatAgent-Info.plist"; sourceTree = "<group>"; };
+		A4EFB098177F34EF000EB829 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A4EFB09A177F34EF000EB829 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4EFB09C177F34EF000EB829 /* RatAgent-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RatAgent-Prefix.pch"; sourceTree = "<group>"; };
+		A4EFB09D177F34EF000EB829 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A4EFB09E177F34EF000EB829 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A4EFB0A0177F34EF000EB829 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A4EFB0A2177F34EF000EB829 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A4EFB0A4177F34EF000EB829 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A4EFB0A7177F34EF000EB829 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		A4EFB0A9177F34EF000EB829 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A4EFB0AA177F34EF000EB829 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A4EFB0B1177F34EF000EB829 /* RatAgentTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RatAgentTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4EFB0B2177F34EF000EB829 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A4EFB0BA177F34EF000EB829 /* RatAgentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RatAgentTests-Info.plist"; sourceTree = "<group>"; };
+		A4EFB0BC177F34EF000EB829 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A4EFB0BE177F34EF000EB829 /* RatAgentTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RatAgentTests.h; sourceTree = "<group>"; };
+		A4EFB0BF177F34EF000EB829 /* RatAgentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RatAgentTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4EFB088177F34EF000EB829 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4EFB08F177F34EF000EB829 /* UIKit.framework in Frameworks */,
+				A4EFB091177F34EF000EB829 /* Foundation.framework in Frameworks */,
+				A4EFB093177F34EF000EB829 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4EFB0AD177F34EF000EB829 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4EFB0B3177F34EF000EB829 /* SenTestingKit.framework in Frameworks */,
+				A4EFB0B4177F34EF000EB829 /* UIKit.framework in Frameworks */,
+				A4EFB0B5177F34EF000EB829 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A4EFB082177F34EF000EB829 = {
+			isa = PBXGroup;
+			children = (
+				A4EFB094177F34EF000EB829 /* RatAgent */,
+				A4EFB0B8177F34EF000EB829 /* RatAgentTests */,
+				A4EFB08D177F34EF000EB829 /* Frameworks */,
+				A4EFB08C177F34EF000EB829 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4EFB08C177F34EF000EB829 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4EFB08B177F34EF000EB829 /* RatAgent.app */,
+				A4EFB0B1177F34EF000EB829 /* RatAgentTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4EFB08D177F34EF000EB829 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A4EFB08E177F34EF000EB829 /* UIKit.framework */,
+				A4EFB090177F34EF000EB829 /* Foundation.framework */,
+				A4EFB092177F34EF000EB829 /* CoreGraphics.framework */,
+				A4EFB0B2177F34EF000EB829 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4EFB094177F34EF000EB829 /* RatAgent */ = {
+			isa = PBXGroup;
+			children = (
+				A4EFB09D177F34EF000EB829 /* AppDelegate.h */,
+				A4EFB09E177F34EF000EB829 /* AppDelegate.m */,
+				A4EFB0A6177F34EF000EB829 /* MainStoryboard.storyboard */,
+				A4EFB0A9177F34EF000EB829 /* ViewController.h */,
+				A4EFB0AA177F34EF000EB829 /* ViewController.m */,
+				A4EFB095177F34EF000EB829 /* Supporting Files */,
+			);
+			path = RatAgent;
+			sourceTree = "<group>";
+		};
+		A4EFB095177F34EF000EB829 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4EFB096177F34EF000EB829 /* RatAgent-Info.plist */,
+				A4EFB097177F34EF000EB829 /* InfoPlist.strings */,
+				A4EFB09A177F34EF000EB829 /* main.m */,
+				A4EFB09C177F34EF000EB829 /* RatAgent-Prefix.pch */,
+				A4EFB0A0177F34EF000EB829 /* Default.png */,
+				A4EFB0A2177F34EF000EB829 /* Default@2x.png */,
+				A4EFB0A4177F34EF000EB829 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A4EFB0B8177F34EF000EB829 /* RatAgentTests */ = {
+			isa = PBXGroup;
+			children = (
+				A4EFB0BE177F34EF000EB829 /* RatAgentTests.h */,
+				A4EFB0BF177F34EF000EB829 /* RatAgentTests.m */,
+				A4EFB0B9177F34EF000EB829 /* Supporting Files */,
+			);
+			path = RatAgentTests;
+			sourceTree = "<group>";
+		};
+		A4EFB0B9177F34EF000EB829 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4EFB0BA177F34EF000EB829 /* RatAgentTests-Info.plist */,
+				A4EFB0BB177F34EF000EB829 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4EFB08A177F34EF000EB829 /* RatAgent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4EFB0C3177F34EF000EB829 /* Build configuration list for PBXNativeTarget "RatAgent" */;
+			buildPhases = (
+				A4EFB087177F34EF000EB829 /* Sources */,
+				A4EFB088177F34EF000EB829 /* Frameworks */,
+				A4EFB089177F34EF000EB829 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RatAgent;
+			productName = RatAgent;
+			productReference = A4EFB08B177F34EF000EB829 /* RatAgent.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A4EFB0B0177F34EF000EB829 /* RatAgentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4EFB0C6177F34EF000EB829 /* Build configuration list for PBXNativeTarget "RatAgentTests" */;
+			buildPhases = (
+				A4EFB0AC177F34EF000EB829 /* Sources */,
+				A4EFB0AD177F34EF000EB829 /* Frameworks */,
+				A4EFB0AE177F34EF000EB829 /* Resources */,
+				A4EFB0AF177F34EF000EB829 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A4EFB0B7177F34EF000EB829 /* PBXTargetDependency */,
+			);
+			name = RatAgentTests;
+			productName = RatAgentTests;
+			productReference = A4EFB0B1177F34EF000EB829 /* RatAgentTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4EFB083177F34EF000EB829 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Angelo Castro";
+			};
+			buildConfigurationList = A4EFB086177F34EF000EB829 /* Build configuration list for PBXProject "RatAgent" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A4EFB082177F34EF000EB829;
+			productRefGroup = A4EFB08C177F34EF000EB829 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4EFB08A177F34EF000EB829 /* RatAgent */,
+				A4EFB0B0177F34EF000EB829 /* RatAgentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4EFB089177F34EF000EB829 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4EFB099177F34EF000EB829 /* InfoPlist.strings in Resources */,
+				A4EFB0A1177F34EF000EB829 /* Default.png in Resources */,
+				A4EFB0A3177F34EF000EB829 /* Default@2x.png in Resources */,
+				A4EFB0A5177F34EF000EB829 /* Default-568h@2x.png in Resources */,
+				A4EFB0A8177F34EF000EB829 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4EFB0AE177F34EF000EB829 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4EFB0BD177F34EF000EB829 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A4EFB0AF177F34EF000EB829 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4EFB087177F34EF000EB829 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4EFB09B177F34EF000EB829 /* main.m in Sources */,
+				A4EFB09F177F34EF000EB829 /* AppDelegate.m in Sources */,
+				A4EFB0AB177F34EF000EB829 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4EFB0AC177F34EF000EB829 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4EFB0C0177F34EF000EB829 /* RatAgentTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A4EFB0B7177F34EF000EB829 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A4EFB08A177F34EF000EB829 /* RatAgent */;
+			targetProxy = A4EFB0B6177F34EF000EB829 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A4EFB097177F34EF000EB829 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4EFB098177F34EF000EB829 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A4EFB0A6177F34EF000EB829 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4EFB0A7177F34EF000EB829 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		A4EFB0BB177F34EF000EB829 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4EFB0BC177F34EF000EB829 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4EFB0C1177F34EF000EB829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A4EFB0C2177F34EF000EB829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4EFB0C4177F34EF000EB829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RatAgent/RatAgent-Prefix.pch";
+				INFOPLIST_FILE = "RatAgent/RatAgent-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A4EFB0C5177F34EF000EB829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RatAgent/RatAgent-Prefix.pch";
+				INFOPLIST_FILE = "RatAgent/RatAgent-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A4EFB0C7177F34EF000EB829 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RatAgent.app/RatAgent";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RatAgent/RatAgent-Prefix.pch";
+				INFOPLIST_FILE = "RatAgentTests/RatAgentTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A4EFB0C8177F34EF000EB829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RatAgent.app/RatAgent";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RatAgent/RatAgent-Prefix.pch";
+				INFOPLIST_FILE = "RatAgentTests/RatAgentTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4EFB086177F34EF000EB829 /* Build configuration list for PBXProject "RatAgent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4EFB0C1177F34EF000EB829 /* Debug */,
+				A4EFB0C2177F34EF000EB829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4EFB0C3177F34EF000EB829 /* Build configuration list for PBXNativeTarget "RatAgent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4EFB0C4177F34EF000EB829 /* Debug */,
+				A4EFB0C5177F34EF000EB829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A4EFB0C6177F34EF000EB829 /* Build configuration list for PBXNativeTarget "RatAgentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4EFB0C7177F34EF000EB829 /* Debug */,
+				A4EFB0C8177F34EF000EB829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4EFB083177F34EF000EB829 /* Project object */;
+}
