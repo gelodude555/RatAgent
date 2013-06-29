@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
+#import "MBProgressHUD.h"
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController <MKMapViewDelegate, MBProgressHUDDelegate> {
+    MBProgressHUD *HUD;
+    CLLocationCoordinate2D coordinate;
+}
+@property (nonatomic, retain) IBOutlet MKMapView *mapView;
+@property (nonatomic, retain) NSMutableData *responseData;
+@property (nonatomic, readonly) CLLocationCoordinate2D coordinate;
+- (id)initWithLocation:(CLLocationCoordinate2D)coord;   
 @end

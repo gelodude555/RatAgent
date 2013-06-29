@@ -23,6 +23,15 @@
 		A4EFB0B5177F34EF000EB829 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EFB090177F34EF000EB829 /* Foundation.framework */; };
 		A4EFB0BD177F34EF000EB829 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4EFB0BB177F34EF000EB829 /* InfoPlist.strings */; };
 		A4EFB0C0177F34EF000EB829 /* RatAgentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EFB0BF177F34EF000EB829 /* RatAgentTests.m */; };
+		A4EFB0CA177F35A6000EB829 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EFB0C9177F35A6000EB829 /* MapKit.framework */; };
+		A4EFB0CD177F3BA9000EB829 /* RatLocations.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EFB0CC177F3BA9000EB829 /* RatLocations.m */; };
+		A4EFB0D0177F3BBC000EB829 /* FoodDropOffSites.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EFB0CF177F3BBC000EB829 /* FoodDropOffSites.m */; };
+		A4EFB0D2177F43F7000EB829 /* flag-export.png in Resources */ = {isa = PBXBuildFile; fileRef = A4EFB0D1177F43F7000EB829 /* flag-export.png */; };
+		A4EFB0D4177F44C7000EB829 /* TrashIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = A4EFB0D3177F44C7000EB829 /* TrashIcon.png */; };
+		A4EFB0D7177F5811000EB829 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EFB0D6177F5811000EB829 /* MBProgressHUD.m */; };
+		A4EFB0D8177F5811000EB829 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EFB0D6177F5811000EB829 /* MBProgressHUD.m */; };
+		A4EFB0DB177F6085000EB829 /* Rats.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EFB0DA177F6085000EB829 /* Rats.m */; };
+		A4EFB0DC177F6085000EB829 /* Rats.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EFB0DA177F6085000EB829 /* Rats.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,13 +60,24 @@
 		A4EFB0A4177F34EF000EB829 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		A4EFB0A7177F34EF000EB829 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		A4EFB0A9177F34EF000EB829 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A4EFB0AA177F34EF000EB829 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A4EFB0AA177F34EF000EB829 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; wrapsLines = 1; };
 		A4EFB0B1177F34EF000EB829 /* RatAgentTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RatAgentTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4EFB0B2177F34EF000EB829 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		A4EFB0BA177F34EF000EB829 /* RatAgentTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RatAgentTests-Info.plist"; sourceTree = "<group>"; };
 		A4EFB0BC177F34EF000EB829 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A4EFB0BE177F34EF000EB829 /* RatAgentTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RatAgentTests.h; sourceTree = "<group>"; };
 		A4EFB0BF177F34EF000EB829 /* RatAgentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RatAgentTests.m; sourceTree = "<group>"; };
+		A4EFB0C9177F35A6000EB829 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		A4EFB0CB177F3BA9000EB829 /* RatLocations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RatLocations.h; sourceTree = "<group>"; };
+		A4EFB0CC177F3BA9000EB829 /* RatLocations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RatLocations.m; sourceTree = "<group>"; };
+		A4EFB0CE177F3BBC000EB829 /* FoodDropOffSites.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDropOffSites.h; sourceTree = "<group>"; };
+		A4EFB0CF177F3BBC000EB829 /* FoodDropOffSites.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodDropOffSites.m; sourceTree = "<group>"; };
+		A4EFB0D1177F43F7000EB829 /* flag-export.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "flag-export.png"; path = "RatAgent/Images/flag-export.png"; sourceTree = "<group>"; };
+		A4EFB0D3177F44C7000EB829 /* TrashIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TrashIcon.png; path = ../../../Desktop/TrashIcon.png; sourceTree = "<group>"; };
+		A4EFB0D5177F5811000EB829 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = RatAgent/MBProgressHUD.h; sourceTree = "<group>"; };
+		A4EFB0D6177F5811000EB829 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = RatAgent/MBProgressHUD.m; sourceTree = "<group>"; };
+		A4EFB0D9177F6085000EB829 /* Rats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rats.h; sourceTree = "<group>"; };
+		A4EFB0DA177F6085000EB829 /* Rats.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rats.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4EFB0CA177F35A6000EB829 /* MapKit.framework in Frameworks */,
 				A4EFB08F177F34EF000EB829 /* UIKit.framework in Frameworks */,
 				A4EFB091177F34EF000EB829 /* Foundation.framework in Frameworks */,
 				A4EFB093177F34EF000EB829 /* CoreGraphics.framework in Frameworks */,
@@ -87,6 +108,10 @@
 		A4EFB082177F34EF000EB829 = {
 			isa = PBXGroup;
 			children = (
+				A4EFB0D5177F5811000EB829 /* MBProgressHUD.h */,
+				A4EFB0D6177F5811000EB829 /* MBProgressHUD.m */,
+				A4EFB0D3177F44C7000EB829 /* TrashIcon.png */,
+				A4EFB0D1177F43F7000EB829 /* flag-export.png */,
 				A4EFB094177F34EF000EB829 /* RatAgent */,
 				A4EFB0B8177F34EF000EB829 /* RatAgentTests */,
 				A4EFB08D177F34EF000EB829 /* Frameworks */,
@@ -106,6 +131,7 @@
 		A4EFB08D177F34EF000EB829 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A4EFB0C9177F35A6000EB829 /* MapKit.framework */,
 				A4EFB08E177F34EF000EB829 /* UIKit.framework */,
 				A4EFB090177F34EF000EB829 /* Foundation.framework */,
 				A4EFB092177F34EF000EB829 /* CoreGraphics.framework */,
@@ -120,8 +146,14 @@
 				A4EFB09D177F34EF000EB829 /* AppDelegate.h */,
 				A4EFB09E177F34EF000EB829 /* AppDelegate.m */,
 				A4EFB0A6177F34EF000EB829 /* MainStoryboard.storyboard */,
+				A4EFB0D9177F6085000EB829 /* Rats.h */,
+				A4EFB0DA177F6085000EB829 /* Rats.m */,
 				A4EFB0A9177F34EF000EB829 /* ViewController.h */,
 				A4EFB0AA177F34EF000EB829 /* ViewController.m */,
+				A4EFB0CB177F3BA9000EB829 /* RatLocations.h */,
+				A4EFB0CC177F3BA9000EB829 /* RatLocations.m */,
+				A4EFB0CE177F3BBC000EB829 /* FoodDropOffSites.h */,
+				A4EFB0CF177F3BBC000EB829 /* FoodDropOffSites.m */,
 				A4EFB095177F34EF000EB829 /* Supporting Files */,
 			);
 			path = RatAgent;
@@ -236,6 +268,8 @@
 				A4EFB0A3177F34EF000EB829 /* Default@2x.png in Resources */,
 				A4EFB0A5177F34EF000EB829 /* Default-568h@2x.png in Resources */,
 				A4EFB0A8177F34EF000EB829 /* MainStoryboard.storyboard in Resources */,
+				A4EFB0D2177F43F7000EB829 /* flag-export.png in Resources */,
+				A4EFB0D4177F44C7000EB829 /* TrashIcon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +307,10 @@
 				A4EFB09B177F34EF000EB829 /* main.m in Sources */,
 				A4EFB09F177F34EF000EB829 /* AppDelegate.m in Sources */,
 				A4EFB0AB177F34EF000EB829 /* ViewController.m in Sources */,
+				A4EFB0CD177F3BA9000EB829 /* RatLocations.m in Sources */,
+				A4EFB0D0177F3BBC000EB829 /* FoodDropOffSites.m in Sources */,
+				A4EFB0D7177F5811000EB829 /* MBProgressHUD.m in Sources */,
+				A4EFB0DB177F6085000EB829 /* Rats.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +319,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4EFB0C0177F34EF000EB829 /* RatAgentTests.m in Sources */,
+				A4EFB0D8177F5811000EB829 /* MBProgressHUD.m in Sources */,
+				A4EFB0DC177F6085000EB829 /* Rats.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,7 +424,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RatAgent/RatAgent-Prefix.pch";
 				INFOPLIST_FILE = "RatAgent/RatAgent-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -395,7 +437,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RatAgent/RatAgent-Prefix.pch";
 				INFOPLIST_FILE = "RatAgent/RatAgent-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
