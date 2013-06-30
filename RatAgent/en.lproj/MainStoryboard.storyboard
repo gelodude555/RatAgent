@@ -13,12 +13,20 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="izy-cQ-pzl"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="TopToolBar_Logo_Short@2x.png" translatesAutoresizingMaskIntoConstraints="NO" id="ITd-vy-pgx">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="37" id="FCJ-Po-Nio"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="izy-cQ-pzl" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="Fyf-bt-KFh"/>
                             <constraint firstItem="izy-cQ-pzl" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="Jf5-Ra-oGI"/>
+                            <constraint firstItem="ITd-vy-pgx" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="Pi1-2M-Jhq"/>
+                            <constraint firstItem="ITd-vy-pgx" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="T3M-1q-nm2"/>
                             <constraint firstItem="izy-cQ-pzl" firstAttribute="bottom" secondItem="3" secondAttribute="bottom" type="default" id="bek-ko-2mf"/>
+                            <constraint firstItem="ITd-vy-pgx" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="fAr-Xw-koo"/>
                             <constraint firstItem="izy-cQ-pzl" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="oyq-ti-Whb"/>
                         </constraints>
                     </view>
@@ -30,6 +38,9 @@
             </objects>
         </scene>
     </scenes>
+    <resources>
+        <image name="TopToolBar_Logo_Short@2x.png" width="640" height="70"/>
+    </resources>
     <classes>
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>

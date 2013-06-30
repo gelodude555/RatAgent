@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A455674B17807FB900E2D0BD /* RatAgent Icon_iPhone-R.png in Resources */ = {isa = PBXBuildFile; fileRef = A455674A17807FB900E2D0BD /* RatAgent Icon_iPhone-R.png */; };
+		A455674F17807FCE00E2D0BD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A455674E17807FCE00E2D0BD /* Default.png */; };
+		A455675117807FE400E2D0BD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A455675017807FE400E2D0BD /* Default@2x.png */; };
+		A45567541780845900E2D0BD /* RatAgent Web Banner.png in Resources */ = {isa = PBXBuildFile; fileRef = A45567561780845900E2D0BD /* RatAgent Web Banner.png */; };
+		A455675B17808C0100E2D0BD /* rat-marker.png in Resources */ = {isa = PBXBuildFile; fileRef = A455675717808C0100E2D0BD /* rat-marker.png */; };
+		A455675D17808C0100E2D0BD /* RatAgent 5 Splash.png in Resources */ = {isa = PBXBuildFile; fileRef = A455675917808C0100E2D0BD /* RatAgent 5 Splash.png */; };
+		A455675E17808C0100E2D0BD /* TopToolBar_Logo_Short@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A455675A17808C0100E2D0BD /* TopToolBar_Logo_Short@2x.png */; };
+		A455676117808C6800E2D0BD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A455676017808C6800E2D0BD /* Default-568h@2x.png */; };
+		A455676217808C7C00E2D0BD /* RatAgent 4 Splash.png in Resources */ = {isa = PBXBuildFile; fileRef = A455676417808C7C00E2D0BD /* RatAgent 4 Splash.png */; };
+		A45567681780980400E2D0BD /* RatAgent Icon_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = A455674C17807FC100E2D0BD /* RatAgent Icon_iPhone.png */; };
 		A4EFB08F177F34EF000EB829 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EFB08E177F34EF000EB829 /* UIKit.framework */; };
 		A4EFB091177F34EF000EB829 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EFB090177F34EF000EB829 /* Foundation.framework */; };
 		A4EFB093177F34EF000EB829 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EFB092177F34EF000EB829 /* CoreGraphics.framework */; };
 		A4EFB099177F34EF000EB829 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4EFB097177F34EF000EB829 /* InfoPlist.strings */; };
 		A4EFB09B177F34EF000EB829 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EFB09A177F34EF000EB829 /* main.m */; };
 		A4EFB09F177F34EF000EB829 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EFB09E177F34EF000EB829 /* AppDelegate.m */; };
-		A4EFB0A1177F34EF000EB829 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A4EFB0A0177F34EF000EB829 /* Default.png */; };
-		A4EFB0A3177F34EF000EB829 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4EFB0A2177F34EF000EB829 /* Default@2x.png */; };
-		A4EFB0A5177F34EF000EB829 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A4EFB0A4177F34EF000EB829 /* Default-568h@2x.png */; };
 		A4EFB0A8177F34EF000EB829 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4EFB0A6177F34EF000EB829 /* MainStoryboard.storyboard */; };
 		A4EFB0AB177F34EF000EB829 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EFB0AA177F34EF000EB829 /* ViewController.m */; };
 		A4EFB0B3177F34EF000EB829 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EFB0B2177F34EF000EB829 /* SenTestingKit.framework */; };
@@ -26,7 +33,6 @@
 		A4EFB0CA177F35A6000EB829 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EFB0C9177F35A6000EB829 /* MapKit.framework */; };
 		A4EFB0CD177F3BA9000EB829 /* RatLocations.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EFB0CC177F3BA9000EB829 /* RatLocations.m */; };
 		A4EFB0D0177F3BBC000EB829 /* FoodDropOffSites.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EFB0CF177F3BBC000EB829 /* FoodDropOffSites.m */; };
-		A4EFB0D2177F43F7000EB829 /* flag-export.png in Resources */ = {isa = PBXBuildFile; fileRef = A4EFB0D1177F43F7000EB829 /* flag-export.png */; };
 		A4EFB0D4177F44C7000EB829 /* TrashIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = A4EFB0D3177F44C7000EB829 /* TrashIcon.png */; };
 		A4EFB0D7177F5811000EB829 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EFB0D6177F5811000EB829 /* MBProgressHUD.m */; };
 		A4EFB0D8177F5811000EB829 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EFB0D6177F5811000EB829 /* MBProgressHUD.m */; };
@@ -45,6 +51,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A455674A17807FB900E2D0BD /* RatAgent Icon_iPhone-R.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RatAgent Icon_iPhone-R.png"; sourceTree = "<group>"; };
+		A455674C17807FC100E2D0BD /* RatAgent Icon_iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RatAgent Icon_iPhone.png"; sourceTree = "<group>"; };
+		A455674E17807FCE00E2D0BD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A455675017807FE400E2D0BD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A45567551780845900E2D0BD /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = "en.lproj/RatAgent Web Banner.png"; sourceTree = "<group>"; };
+		A455675717808C0100E2D0BD /* rat-marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rat-marker.png"; sourceTree = "<group>"; };
+		A455675917808C0100E2D0BD /* RatAgent 5 Splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RatAgent 5 Splash.png"; sourceTree = "<group>"; };
+		A455675A17808C0100E2D0BD /* TopToolBar_Logo_Short@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TopToolBar_Logo_Short@2x.png"; sourceTree = "<group>"; };
+		A455676017808C6800E2D0BD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A455676317808C7C00E2D0BD /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = "en.lproj/RatAgent 4 Splash.png"; sourceTree = "<group>"; };
 		A4EFB08B177F34EF000EB829 /* RatAgent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RatAgent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4EFB08E177F34EF000EB829 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A4EFB090177F34EF000EB829 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -55,9 +71,6 @@
 		A4EFB09C177F34EF000EB829 /* RatAgent-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RatAgent-Prefix.pch"; sourceTree = "<group>"; };
 		A4EFB09D177F34EF000EB829 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A4EFB09E177F34EF000EB829 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A4EFB0A0177F34EF000EB829 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		A4EFB0A2177F34EF000EB829 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		A4EFB0A4177F34EF000EB829 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		A4EFB0A7177F34EF000EB829 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		A4EFB0A9177F34EF000EB829 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A4EFB0AA177F34EF000EB829 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; wrapsLines = 1; };
@@ -72,7 +85,6 @@
 		A4EFB0CC177F3BA9000EB829 /* RatLocations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RatLocations.m; sourceTree = "<group>"; };
 		A4EFB0CE177F3BBC000EB829 /* FoodDropOffSites.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodDropOffSites.h; sourceTree = "<group>"; };
 		A4EFB0CF177F3BBC000EB829 /* FoodDropOffSites.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoodDropOffSites.m; sourceTree = "<group>"; };
-		A4EFB0D1177F43F7000EB829 /* flag-export.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "flag-export.png"; path = "RatAgent/Images/flag-export.png"; sourceTree = "<group>"; };
 		A4EFB0D3177F44C7000EB829 /* TrashIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TrashIcon.png; path = ../../../Desktop/TrashIcon.png; sourceTree = "<group>"; };
 		A4EFB0D5177F5811000EB829 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MBProgressHUD.h; path = RatAgent/MBProgressHUD.h; sourceTree = "<group>"; };
 		A4EFB0D6177F5811000EB829 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MBProgressHUD.m; path = RatAgent/MBProgressHUD.m; sourceTree = "<group>"; };
@@ -108,10 +120,19 @@
 		A4EFB082177F34EF000EB829 = {
 			isa = PBXGroup;
 			children = (
+				A455676017808C6800E2D0BD /* Default-568h@2x.png */,
+				A455675717808C0100E2D0BD /* rat-marker.png */,
+				A455676417808C7C00E2D0BD /* RatAgent 4 Splash.png */,
+				A455675917808C0100E2D0BD /* RatAgent 5 Splash.png */,
+				A455675A17808C0100E2D0BD /* TopToolBar_Logo_Short@2x.png */,
+				A45567561780845900E2D0BD /* RatAgent Web Banner.png */,
+				A455675017807FE400E2D0BD /* Default@2x.png */,
+				A455674E17807FCE00E2D0BD /* Default.png */,
+				A455674C17807FC100E2D0BD /* RatAgent Icon_iPhone.png */,
+				A455674A17807FB900E2D0BD /* RatAgent Icon_iPhone-R.png */,
 				A4EFB0D5177F5811000EB829 /* MBProgressHUD.h */,
 				A4EFB0D6177F5811000EB829 /* MBProgressHUD.m */,
 				A4EFB0D3177F44C7000EB829 /* TrashIcon.png */,
-				A4EFB0D1177F43F7000EB829 /* flag-export.png */,
 				A4EFB094177F34EF000EB829 /* RatAgent */,
 				A4EFB0B8177F34EF000EB829 /* RatAgentTests */,
 				A4EFB08D177F34EF000EB829 /* Frameworks */,
@@ -166,9 +187,6 @@
 				A4EFB097177F34EF000EB829 /* InfoPlist.strings */,
 				A4EFB09A177F34EF000EB829 /* main.m */,
 				A4EFB09C177F34EF000EB829 /* RatAgent-Prefix.pch */,
-				A4EFB0A0177F34EF000EB829 /* Default.png */,
-				A4EFB0A2177F34EF000EB829 /* Default@2x.png */,
-				A4EFB0A4177F34EF000EB829 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -264,12 +282,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4EFB099177F34EF000EB829 /* InfoPlist.strings in Resources */,
-				A4EFB0A1177F34EF000EB829 /* Default.png in Resources */,
-				A4EFB0A3177F34EF000EB829 /* Default@2x.png in Resources */,
-				A4EFB0A5177F34EF000EB829 /* Default-568h@2x.png in Resources */,
 				A4EFB0A8177F34EF000EB829 /* MainStoryboard.storyboard in Resources */,
-				A4EFB0D2177F43F7000EB829 /* flag-export.png in Resources */,
 				A4EFB0D4177F44C7000EB829 /* TrashIcon.png in Resources */,
+				A455674B17807FB900E2D0BD /* RatAgent Icon_iPhone-R.png in Resources */,
+				A455674F17807FCE00E2D0BD /* Default.png in Resources */,
+				A455675117807FE400E2D0BD /* Default@2x.png in Resources */,
+				A45567541780845900E2D0BD /* RatAgent Web Banner.png in Resources */,
+				A455675B17808C0100E2D0BD /* rat-marker.png in Resources */,
+				A455676217808C7C00E2D0BD /* RatAgent 4 Splash.png in Resources */,
+				A455675D17808C0100E2D0BD /* RatAgent 5 Splash.png in Resources */,
+				A455675E17808C0100E2D0BD /* TopToolBar_Logo_Short@2x.png in Resources */,
+				A455676117808C6800E2D0BD /* Default-568h@2x.png in Resources */,
+				A45567681780980400E2D0BD /* RatAgent Icon_iPhone.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +359,23 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		A45567561780845900E2D0BD /* RatAgent Web Banner.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A45567551780845900E2D0BD /* en */,
+			);
+			name = "RatAgent Web Banner.png";
+			path = RatAgent/Images;
+			sourceTree = "<group>";
+		};
+		A455676417808C7C00E2D0BD /* RatAgent 4 Splash.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A455676317808C7C00E2D0BD /* en */,
+			);
+			name = "RatAgent 4 Splash.png";
+			sourceTree = "<group>";
+		};
 		A4EFB097177F34EF000EB829 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -497,6 +538,7 @@
 				A4EFB0C5177F34EF000EB829 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A4EFB0C6177F34EF000EB829 /* Build configuration list for PBXNativeTarget "RatAgentTests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +547,7 @@
 				A4EFB0C8177F34EF000EB829 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
