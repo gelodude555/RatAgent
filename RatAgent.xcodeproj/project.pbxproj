@@ -11,13 +11,13 @@
 		A455674F17807FCE00E2D0BD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A455674E17807FCE00E2D0BD /* Default.png */; };
 		A455675117807FE400E2D0BD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A455675017807FE400E2D0BD /* Default@2x.png */; };
 		A45567541780845900E2D0BD /* RatAgent Web Banner.png in Resources */ = {isa = PBXBuildFile; fileRef = A45567561780845900E2D0BD /* RatAgent Web Banner.png */; };
-		A455675B17808C0100E2D0BD /* rat-marker.png in Resources */ = {isa = PBXBuildFile; fileRef = A455675717808C0100E2D0BD /* rat-marker.png */; };
 		A455675D17808C0100E2D0BD /* RatAgent 5 Splash.png in Resources */ = {isa = PBXBuildFile; fileRef = A455675917808C0100E2D0BD /* RatAgent 5 Splash.png */; };
 		A455675E17808C0100E2D0BD /* TopToolBar_Logo_Short@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A455675A17808C0100E2D0BD /* TopToolBar_Logo_Short@2x.png */; };
 		A455676117808C6800E2D0BD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A455676017808C6800E2D0BD /* Default-568h@2x.png */; };
 		A455676217808C7C00E2D0BD /* RatAgent 4 Splash.png in Resources */ = {isa = PBXBuildFile; fileRef = A455676417808C7C00E2D0BD /* RatAgent 4 Splash.png */; };
 		A45567681780980400E2D0BD /* RatAgent Icon_iPhone.png in Resources */ = {isa = PBXBuildFile; fileRef = A455674C17807FC100E2D0BD /* RatAgent Icon_iPhone.png */; };
 		A455676E17809AE900E2D0BD /* TrashIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = A455676D17809AE900E2D0BD /* TrashIcon.png */; };
+		A4B9BDDC1780B40C0084488D /* rat-marker_sm.png in Resources */ = {isa = PBXBuildFile; fileRef = A4B9BDDB1780B40C0084488D /* rat-marker_sm.png */; };
 		A4EFB08F177F34EF000EB829 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EFB08E177F34EF000EB829 /* UIKit.framework */; };
 		A4EFB091177F34EF000EB829 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EFB090177F34EF000EB829 /* Foundation.framework */; };
 		A4EFB093177F34EF000EB829 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4EFB092177F34EF000EB829 /* CoreGraphics.framework */; };
@@ -55,13 +55,13 @@
 		A455674C17807FC100E2D0BD /* RatAgent Icon_iPhone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RatAgent Icon_iPhone.png"; sourceTree = "<group>"; };
 		A455674E17807FCE00E2D0BD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		A455675017807FE400E2D0BD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		A45567551780845900E2D0BD /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = "en.lproj/RatAgent Web Banner.png"; sourceTree = "<group>"; };
-		A455675717808C0100E2D0BD /* rat-marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rat-marker.png"; sourceTree = "<group>"; };
+		A45567551780845900E2D0BD /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = "en.lproj/RatAgent Web Banner.png"; sourceTree = "<group>"; };
 		A455675917808C0100E2D0BD /* RatAgent 5 Splash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "RatAgent 5 Splash.png"; sourceTree = "<group>"; };
 		A455675A17808C0100E2D0BD /* TopToolBar_Logo_Short@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "TopToolBar_Logo_Short@2x.png"; sourceTree = "<group>"; };
 		A455676017808C6800E2D0BD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		A455676317808C7C00E2D0BD /* en */ = {isa = PBXFileReference; lastKnownFileType = file; name = en; path = "en.lproj/RatAgent 4 Splash.png"; sourceTree = "<group>"; };
+		A455676317808C7C00E2D0BD /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = "en.lproj/RatAgent 4 Splash.png"; sourceTree = "<group>"; };
 		A455676D17809AE900E2D0BD /* TrashIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TrashIcon.png; sourceTree = "<group>"; };
+		A4B9BDDB1780B40C0084488D /* rat-marker_sm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rat-marker_sm.png"; sourceTree = "<group>"; };
 		A4EFB08B177F34EF000EB829 /* RatAgent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RatAgent.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4EFB08E177F34EF000EB829 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		A4EFB090177F34EF000EB829 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -122,7 +122,7 @@
 			children = (
 				A455676D17809AE900E2D0BD /* TrashIcon.png */,
 				A455676017808C6800E2D0BD /* Default-568h@2x.png */,
-				A455675717808C0100E2D0BD /* rat-marker.png */,
+				A4B9BDDB1780B40C0084488D /* rat-marker_sm.png */,
 				A455676417808C7C00E2D0BD /* RatAgent 4 Splash.png */,
 				A455675917808C0100E2D0BD /* RatAgent 5 Splash.png */,
 				A455675A17808C0100E2D0BD /* TopToolBar_Logo_Short@2x.png */,
@@ -287,13 +287,13 @@
 				A455674F17807FCE00E2D0BD /* Default.png in Resources */,
 				A455675117807FE400E2D0BD /* Default@2x.png in Resources */,
 				A45567541780845900E2D0BD /* RatAgent Web Banner.png in Resources */,
-				A455675B17808C0100E2D0BD /* rat-marker.png in Resources */,
 				A455676217808C7C00E2D0BD /* RatAgent 4 Splash.png in Resources */,
 				A455675D17808C0100E2D0BD /* RatAgent 5 Splash.png in Resources */,
 				A455675E17808C0100E2D0BD /* TopToolBar_Logo_Short@2x.png in Resources */,
 				A455676117808C6800E2D0BD /* Default-568h@2x.png in Resources */,
 				A45567681780980400E2D0BD /* RatAgent Icon_iPhone.png in Resources */,
 				A455676E17809AE900E2D0BD /* TrashIcon.png in Resources */,
+				A4B9BDDC1780B40C0084488D /* rat-marker_sm.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,54 +1,15 @@
 //
-//  ViewController.m
+//  FoodDropSites.m
 //  RatAgent
 //
-//  Created by Angelo Castro on 6/29/13.
+//  Created by Angelo Castro on 6/30/13.
 //  Copyright (c) 2013 Angelo Castro. All rights reserved.
 //
 
-#import "ViewController.h"
-#import "RatLocations.h"
-#import "FoodDropOffSites.h"
-#import "MBProgressHUD.h"
-#import "Rats.h"
-#import "RatLocations.h"
+#import "FoodDropSites.h"
 
-@interface ViewController ()
-
-@end
-
-@implementation ViewController {
-}
+@implementation FoodDropSites
 @synthesize responseData;
-
-- (void)viewDidLoad
-{
-    
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-    [self getData:nil];
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-- (MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id < MKAnnotation >)annotation {
-    NSString *imageName = [annotation performSelector:@selector(getImageName)];
-    MKAnnotationView *aview;
-    if ([imageName length] > 0) {
-        aview = [[MKAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"TrashIcon.png"];
-        aview.canShowCallout = YES;
-        [aview setImage:[UIImage imageNamed:imageName]];
-    }
-    return aview;
-}
-
-- (void)mapViewDidFinishLoadingMap:(MKMapView *)mapView {
-}
-//Copy Code BELOW HERE!!!VVV   VVV
 
 -(void) getData:(NSString *)code {
     
@@ -62,7 +23,7 @@
 	
 	HUD.delegate = self;
 	HUD.labelText = @"Loading";
-	HUD.detailsLabelText = @"Searching for Rats";
+	HUD.detailsLabelText = [NSString stringWithFormat:@"Retrieving product info for %@", code];
 	HUD.square = YES;
 	
     [HUD show:YES];
@@ -71,7 +32,7 @@
     // https://foodagentp1486727504trial.nwtrial.ondemand.com/FoodAgent/
     // https://helloworldtriali804190trial.nwtrial.ondemand.com/FoodAgent/
     
-    NSString *urlstring = [[NSString alloc] initWithFormat:@"http://data.cityofnewyork.us/resource/3q43-55fe.json"];
+    NSString *urlstring = [[NSString alloc] initWithFormat:@"http://data.cityofnewyork.us/resource/rmmq-46n5.json"];
     
     NSLog(@"Getting data from %@", urlstring);
     
@@ -82,9 +43,9 @@
 
 - (void)connection:(NSURLConnection *)connection didReceiveResponse:(NSURLResponse *)response
 {
-//    NSLog(@"Response received %d",[(NSHTTPURLResponse*)response statusCode]);
+    //    NSLog(@"Response received %d",[(NSHTTPURLResponse*)response statusCode]);
     NSDictionary *allHeaders = [(NSHTTPURLResponse*)response allHeaderFields];
-//    NSLog(@"Response headers %@",allHeaders);
+    //    NSLog(@"Response headers %@",allHeaders);
     [self.responseData setLength:0];
 }
 
@@ -105,70 +66,69 @@
  */
 - (void)connectionDidFinishLoading:(NSURLConnection *)connection
 {
-//    NSLog(@"Finished loading, got %d bytes", [self.responseData length]);
+    //    NSLog(@"Finished loading, got %d bytes", [self.responseData length]);
     
     // Hide the spinner window
     [HUD hide:YES];
     
     // Once this method is invoked, "responseData" contains the complete result
     // The data comes in the format     "Content-Type" = "application/json;charset=ISO-8859-1";
-/*
-    NSString *newStr = [[NSString alloc] initWithData:responseData encoding:NSISOLatin1StringEncoding];
-    NSLog(@"Received data as string%@",newStr);
-  */  
+    /*
+     NSString *newStr = [[NSString alloc] initWithData:responseData encoding:NSISOLatin1StringEncoding];
+     NSLog(@"Received data as string%@",newStr);
+     */
     
     // Extract the received data from the response from the web page
     NSError* error;
     NSArray* json = [NSJSONSerialization
-                          JSONObjectWithData:responseData
-                          
-                          options:kNilOptions
-                          error:&error];
-         [self.mapView removeAnnotations:[self.mapView annotations]];
-    RatLocations *ratLoc;
+                     JSONObjectWithData:responseData
+                     
+                     options:kNilOptions
+                     error:&error];
+    [self.mapView removeAnnotations:[self.mapView annotations]];
+    TrashLocations *trashLoc;
     
     for (NSDictionary *dict in json) {
         // Create an instance of class Item for storing this Item in the History list
-        Rats *rats = [[Rats alloc] init];
-        rats.incidentZip = [dict objectForKey:@"incident_zip"];
+        Trash *trash = [[Trash alloc] init];
+        Trash.incidentZip = [dict objectForKey:@"incident_zip"];
         // Get the Item
         NSDictionary *location = [dict objectForKey:@"location"];
-        rats.longitude = [location objectForKey:@"longitude"];
-        rats.latitude = [location objectForKey:@"latitude"];
+        trash.longitude = [location objectForKey:@"longitude"];
+        trash.latitude = [location objectForKey:@"latitude"];
         
-     //   NSDictionary *dropOffSite = [dict objectForKey:@"]
+        //   NSDictionary *dropOffSite = [dict objectForKey:@"]
         
         
-        ratLoc = [[RatLocations alloc] init];
+        trashLoc = [[TrasLocations alloc] init];
         
         
         CLLocationCoordinate2D coord;
         coord.latitude = [rats.latitude floatValue];
         coord.longitude = [rats.longitude floatValue];
-        ratLoc.coordinate = coord;
-        MKAnnotationView* aView = [[MKAnnotationView alloc] initWithAnnotation:ratLoc reuseIdentifier:@"location"];
-        aView = [[MKPinAnnotationView alloc] initWithAnnotation:ratLoc reuseIdentifier:@"myAnnotationIdentifier"];
-    //    aView.image = [UIImage imageNamed:[ra]];
-        [self.mapView addAnnotation:ratLoc];
+        trashLoc.coordinate = coord;
+        MKAnnotationView* aView = [[MKAnnotationView alloc] initWithAnnotation:trashLoc reuseIdentifier:@"location"];
+        aView = [[MKPinAnnotationView alloc] initWithAnnotation:trashLoc reuseIdentifier:@"myAnnotationIdentifier"];
+        //    aView.image = [UIImage imageNamed:[ra]];
+        [self.mapView addAnnotation:trashLoc];
     }
     MKCoordinateRegion region = [self.mapView region];
     region.span.latitudeDelta = 0.42555;
     region.span.longitudeDelta = 0.42555;
-    region.center.latitude = ratLoc.coordinate.latitude;
-    region.center.longitude = ratLoc.coordinate.longitude;
+    region.center.latitude = trashLoc.coordinate.latitude;
+    region.center.longitude = trashLoc.coordinate.longitude;
     [self.mapView setRegion:region animated:YES];
-
-/*
-    MKCoordinateRegion region = [self.mapView region];
-    region.span.latitudeDelta = 0.015;
-    region.span.longitudeDelta = 0.015;
-    region.center.latitude = location2D.latitude;
-    region.center.longitude = location2D.longitude;
-    [self.mapView setRegion:region animated:YES];
-        // Tell the view to refresh with the new data
-    //      [self.view setNeedsDisplay];
- */
+    
+    /*
+     MKCoordinateRegion region = [self.mapView region];
+     region.span.latitudeDelta = 0.015;
+     region.span.longitudeDelta = 0.015;
+     region.center.latitude = location2D.latitude;
+     region.center.longitude = location2D.longitude;
+     [self.mapView setRegion:region animated:YES];
+     // Tell the view to refresh with the new data
+     //      [self.view setNeedsDisplay];
+     */
 }
-
 
 @end

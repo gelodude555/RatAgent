@@ -12,7 +12,11 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="izy-cQ-pzl"/>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="izy-cQ-pzl">
+                                <connections>
+                                    <outlet property="delegate" destination="2" id="YWC-On-Qwa"/>
+                                </connections>
+                            </mapView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="TopToolBar_Logo_Short@2x.png" translatesAutoresizingMaskIntoConstraints="NO" id="ITd-vy-pgx">
                                 <constraints>
                                     <constraint firstAttribute="height" constant="37" id="FCJ-Po-Nio"/>

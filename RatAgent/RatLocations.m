@@ -24,6 +24,6 @@
 }
 
 -(NSString *)getImageName {
-    return @"rat-marker.png";
+    return @"rat-marker_sm.png";
 }
 @end
