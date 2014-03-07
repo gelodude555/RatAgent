@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2A0DED0D-F392-4731-B774-E5D6609126B4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>RatAgent</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>57487C03-1F4F-4DB5-B399-3BA90B01590C</key>
+		<string>https://github.com/gelodude555/RatAgent.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>RatAgent.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>57487C03-1F4F-4DB5-B399-3BA90B01590C</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/gelodude555/RatAgent.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>57487C03-1F4F-4DB5-B399-3BA90B01590C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>57487C03-1F4F-4DB5-B399-3BA90B01590C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>RatAgent</string>
+		</dict>
+	</array>
+</dict>
+</plist>

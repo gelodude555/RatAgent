@@ -36,7 +36,7 @@
 }
 
 - (MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id < MKAnnotation >)annotation {
-    NSString *imageName = [annotation performSelector:@selector(getImageName)];
+    NSString *imageName = @"rat-marker_sm.png"; ;//[annotation performSelector:@selector(getImageName)];
     MKAnnotationView *aview;
     if ([imageName length] > 0) {
         aview = [[MKAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:@"TrashIcon.png"];
@@ -58,7 +58,8 @@
     // Start the activity Spinner, this displays the progress indicator while the
     // data is being loaded.
 	HUD = [[MBProgressHUD alloc] initWithView:self.view];
-	[self.navigationController.view addSubview:HUD];
+//	[self.navigationController.view addSubview:HUD];
+    
 	
 	HUD.delegate = self;
 	HUD.labelText = @"Loading";
@@ -103,7 +104,7 @@
 /*
  {"Item":{"ID":"2","Name":"Applesauce","Brand":"Giant","ImageURL":"http://t1.gstatic.com/images?q=tbn:ANd9GcTdpan8bm6lE7BpzWzHeJM62ExUZyaydZipJQY_U6VUxp4ROoCJzg","Location":"Baltimore, MD","Lat":"39.302425","Lng":"-76.612587"},"Count":"1","Ingredients":[{"ID":"1","Lat":"39.1718","Lng":"-77.3264","Name":"Apple"},{"ID":"2","Lat":"39.1864","Lng":"-77.3043","Name":"Water"},{"ID":"3","Lat":"39.15952","Lng":"-77.27885","Name":"Sugar"}],"Hazards":[{"ID":"1","Lat":"39.238448","Lng":"-76.58792","Name":"Maryland Chemical Plant"},{"ID":"2","Lat":"38.432211","Lng":"-76.452506","Name":"Calvert Cliffs Nuclear Power Plant "},{"ID":"3","Lat":"39.438182","Lng":"-77.432942","Name":"Fort Detrick"}]}
  */
-- (void)connectionDidFinishLoading:(NSURLConnection *)connection
+- (void)    :(NSURLConnection *)connection
 {
 //    NSLog(@"Finished loading, got %d bytes", [self.responseData length]);
     
@@ -158,16 +159,6 @@
     region.center.longitude = ratLoc.coordinate.longitude;
     [self.mapView setRegion:region animated:YES];
 
-/*
-    MKCoordinateRegion region = [self.mapView region];
-    region.span.latitudeDelta = 0.015;
-    region.span.longitudeDelta = 0.015;
-    region.center.latitude = location2D.latitude;
-    region.center.longitude = location2D.longitude;
-    [self.mapView setRegion:region animated:YES];
-        // Tell the view to refresh with the new data
-    //      [self.view setNeedsDisplay];
- */
 }
 
 
